@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/space16">
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:textSize="@dimen/h2"
+        android:gravity="center"
+        android:textColor="@color/colorTextGrey"
+        android:textAppearance="@style/Regular"
+        android:background="@drawable/bg_number"/>
+    <ImageView
+        android:id="@+id/iv_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_done"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/tv_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_number"
+        android:layout_marginLeft="@dimen/space16"
+        android:layout_marginTop="@dimen/space8"
+        style="@style/Text14Reg"/>
+</RelativeLayout>

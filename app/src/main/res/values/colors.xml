@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPink">#E82D50</color>
+    <color name="colorPinkTrans">#E6E82D50</color>
+    <color name="colorTextDark">#434B5B</color>
+    <color name="colorTextGrey">#8E939E</color>
+    <color name="colorPinkDark">#A8213A</color>
+    <color name="colorWhiteTrans">#E6FFFFFF</color>
+</resources>

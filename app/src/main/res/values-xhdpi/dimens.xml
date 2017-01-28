@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="recipeImg">104dp</dimen>
+    <dimen name="h1">22dp</dimen>
+    <dimen name="h2">18dp</dimen>
+    <dimen name="h3">15dp</dimen>
+</resources>

@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPink</item>
+        <item name="colorPrimaryDark">@color/colorPink</item>
+        <item name="colorAccent">@color/colorPink</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="Full" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="colorPrimary">@color/colorPink</item>
+        <item name="colorPrimaryDark">@color/colorPink</item>
+        <item name="colorAccent">@color/colorPink</item>
+    </style>
+
+    <style name="Regular" parent="android:TextAppearance">
+        <item name="fontPath">fonts/SourceSansPro-Regular.otf</item>
+    </style>
+
+    <style name="SemiBold" parent="android:TextAppearance">
+        <item name="fontPath">fonts/SourceSansPro-Semibold.otf</item>
+    </style>
+
+    <style name="Light" parent="android:TextAppearance">
+        <item name="fontPath">fonts/SourceSansPro-LightIt.otf</item>
+    </style>
+
+    <style name="MenuItem">
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">@dimen/h3</item>
+    </style>
+
+    <style name="Text14Reg">
+        <item name="android:textSize">@dimen/h3</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textAppearance">@style/Regular</item>
+    </style>
+
+    <style name="Text22Semi">
+        <item name="android:textSize">@dimen/h1</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textAppearance">@style/SemiBold</item>
+    </style>
+    <style name="Text22SemiWhite">
+        <item name="android:textSize">@dimen/h1</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Text14It">
+        <item name="android:textSize">@dimen/h3</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textAppearance">@style/Light</item>
+    </style>
+
+    <style name="Text14ItGrey">
+        <item name="android:textSize">@dimen/h3</item>
+        <item name="android:textColor">@color/colorTextGrey</item>
+        <item name="android:textAppearance">@style/Light</item>
+    </style>
+    <style name="Text14Grey">
+        <item name="android:textSize">@dimen/h3</item>
+        <item name="android:textColor">@color/colorTextGrey</item>
+        <item name="android:textAppearance">@style/Regular</item>
+    </style>
+    <style name="Text14Pink">
+        <item name="android:textSize">@dimen/h3</item>
+        <item name="android:textColor">@color/colorPink</item>
+        <item name="android:textAppearance">@style/Regular</item>
+    </style>
+
+    <style name="RatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar</item>
+        <item name="android:minHeight">18dip</item>
+        <item name="android:maxHeight">18dip</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
